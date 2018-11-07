@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:DS_Series xmlns:gmi="http://www.isotc211.org/2005/gmi"
+               xmlns:gco="http://www.isotc211.org/2005/gco"
+               xmlns:gmd="http://www.isotc211.org/2005/gmd"
+               xmlns:gml="http://www.opengis.net/gml/3.2"
+               xmlns:gmx="http://www.isotc211.org/2005/gmx"
+               xmlns:gss="http://www.isotc211.org/2005/gss"
+               xmlns:gsr="http://www.isotc211.org/2005/gsr"
+               xmlns:gts="http://www.isotc211.org/2005/gts"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns:eos="http://earthdata.nasa.gov/schema/eos"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+               xmlns:srv="http://www.isotc211.org/2005/srv"
+               xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://cdn.earthdata.nasa.gov/iso/schema/1.0/ISO19115-2_EOS.xsd">
+   <gmd:composedOf>
+      <gmd:DS_DataSet>
+         <gmd:has>
+            <gmi:MI_Metadata>
+               <gmd:fileIdentifier>
+                  <gmx:FileName>SMAP_L4_SM_aup_20181027T090000_Vv4030_001.h5</gmx:FileName>
+               </gmd:fileIdentifier>
+               <gmd:language>
+                  <gco:CharacterString>eng</gco:CharacterString>
+               </gmd:language>
+               <gmd:characterSet>
+                  <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode"
+                                           codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+               </gmd:characterSet>
+               <gmd:hierarchyLevel>
+                  <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+               </gmd:hierarchyLevel>
+               <gmd:contact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>NSIDC DAAC &gt; National Snow and Ice Data Center DAAC</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>nsidc@nsidc.org</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>http://nsidc.org/daac/</gmd:URL>
+                                 </gmd:linkage>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:contact>
+               <gmd:contact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>NASA Global Modeling and Assimilation Office, Goddard Space Flight Center, Greenbelt, Maryland, USA</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="originator">originator</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:contact>
+               <gmd:dateStamp>
+                  <gco:DateTime>2018-10-29T17:11:11.000Z</gco:DateTime>
+               </gmd:dateStamp>
+               <gmd:metadataStandardName>
+                  <gco:CharacterString>ISO 19115-2 Geographic information - Metadata - Part 2: Extensions for imagery and gridded data</gco:CharacterString>
+               </gmd:metadataStandardName>
+               <gmd:metadataStandardVersion>
+                  <gco:CharacterString>ISO 19115-2:2009-02-15</gco:CharacterString>
+               </gmd:metadataStandardVersion>
+               <gmd:spatialRepresentationInfo>
+                  <gmd:MD_Georeferenceable>
+                     <gmd:numberOfDimensions>
+                        <gco:Integer>2</gco:Integer>
+                     </gmd:numberOfDimensions>
+                     <gmd:axisDimensionProperties>
+                        <gmd:MD_Dimension>
+                           <gmd:dimensionName>
+                              <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode"
+                                                            codeListValue="row">row</gmd:MD_DimensionNameTypeCode>
+                           </gmd:dimensionName>
+                           <gmd:dimensionSize>
+                              <gco:Integer>1624</gco:Integer>
+                           </gmd:dimensionSize>
+                           <gmd:resolution>
+                              <gco:Length uom="km_on_average">9</gco:Length>
+                           </gmd:resolution>
+                        </gmd:MD_Dimension>
+                     </gmd:axisDimensionProperties>
+                     <gmd:axisDimensionProperties>
+                        <gmd:MD_Dimension>
+                           <gmd:dimensionName>
+                              <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode"
+                                                            codeListValue="column">column</gmd:MD_DimensionNameTypeCode>
+                           </gmd:dimensionName>
+                           <gmd:dimensionSize>
+                              <gco:Integer>3856</gco:Integer>
+                           </gmd:dimensionSize>
+                           <gmd:resolution>
+                              <gco:Length uom="km_on_average">9</gco:Length>
+                           </gmd:resolution>
+                        </gmd:MD_Dimension>
+                     </gmd:axisDimensionProperties>
+                     <gmd:cellGeometry>
+                        <gmd:MD_CellGeometryCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CellGeometryCode"
+                                                 codeListValue="area">area</gmd:MD_CellGeometryCode>
+                     </gmd:cellGeometry>
+                     <gmd:transformationParameterAvailability gco:nilReason="missing"/>
+                     <gmd:controlPointAvailability>
+                        <gco:Boolean>false</gco:Boolean>
+                     </gmd:controlPointAvailability>
+                     <gmd:orientationParameterAvailability>
+                        <gco:Boolean>false</gco:Boolean>
+                     </gmd:orientationParameterAvailability>
+                     <gmd:georeferencedParameters>
+                        <gco:Record xsi:type="gco:CharacterString_PropertyType">
+                           <gco:CharacterString>SMAP Fixed Earth Grids, SMAP Science Document no:  033, May 11, 2009</gco:CharacterString>
+                        </gco:Record>
+                     </gmd:georeferencedParameters>
+                  </gmd:MD_Georeferenceable>
+               </gmd:spatialRepresentationInfo>
+               <gmd:identificationInfo>
+                  <gmd:MD_DataIdentification>
+                     <gmd:citation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gmx:FileName>SMAP_L4_SM_aup_20181027T090000_Vv4030_001.h5</gmx:FileName>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:DateTime>2018-10-29T17:11:11.000Z</gco:DateTime>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                         codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:edition>
+                              <gco:CharacterString>Vv40300005</gco:CharacterString>
+                           </gmd:edition>
+                           <gmd:identifier>
+                              <gmd:MD_Identifier>
+                                 <gmd:code>
+                                    <gco:CharacterString>SPL4SMAU</gco:CharacterString>
+                                 </gmd:code>
+                                 <gmd:codeSpace>
+                                    <gco:CharacterString>http://gmao.gsfc.nasa.gov</gco:CharacterString>
+                                 </gmd:codeSpace>
+                                 <gmd:description>
+                                    <gco:CharacterString>The ECS Short Name</gco:CharacterString>
+                                 </gmd:description>
+                              </gmd:MD_Identifier>
+                           </gmd:identifier>
+                           <gmd:identifier>
+                              <gmd:MD_Identifier>
+                                 <gmd:code>
+                                    <gco:CharacterString>004</gco:CharacterString>
+                                 </gmd:code>
+                                 <gmd:codeSpace>
+                                    <gco:CharacterString>gov.nasa.esdis</gco:CharacterString>
+                                 </gmd:codeSpace>
+                                 <gmd:description>
+                                    <gco:CharacterString>The ECS Version ID</gco:CharacterString>
+                                 </gmd:description>
+                              </gmd:MD_Identifier>
+                           </gmd:identifier>
+                           <gmd:identifier>
+                              <gmd:MD_Identifier>
+                                 <gmd:code>
+                                    <gco:CharacterString>A24486FC-DB9D-11E8-B6E5-AD896977E630</gco:CharacterString>
+                                 </gmd:code>
+                                 <gmd:codeSpace>
+                                    <gco:CharacterString>urn:uuid</gco:CharacterString>
+                                 </gmd:codeSpace>
+                                 <gmd:description>
+                                    <gco:CharacterString>A Universally Unique Identifier (UUID)</gco:CharacterString>
+                                 </gmd:description>
+                              </gmd:MD_Identifier>
+                           </gmd:identifier>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>NASA Global Modeling and Assimilation Office, Goddard Space Flight Center, Greenbelt, Maryland, USA</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                                     codeListValue="processor">processor</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>Global Modeling and Assimilation Office</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                                     codeListValue="originator">originator</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:presentationForm>
+                              <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode"
+                                                           codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
+                           </gmd:presentationForm>
+                           <gmd:series>
+                              <gmd:CI_Series>
+                                 <gmd:name>
+                                    <gco:CharacterString>L4_SM_aup</gco:CharacterString>
+                                 </gmd:name>
+                              </gmd:CI_Series>
+                           </gmd:series>
+                        </gmd:CI_Citation>
+                     </gmd:citation>
+                     <gmd:abstract>
+                        <gco:CharacterString>The SMAP L4_SM data product provides global, 3-hourly surface and root zone soil moisture at 9 km resolution. The L4_SM data product consists of three Collections: geophysical, analysis update and land-model-constants.</gco:CharacterString>
+                     </gmd:abstract>
+                     <gmd:purpose>
+                        <gco:CharacterString>The SMAP L4_SM data product provides spatially and temporally complete surface and root zone soil moisture information for science and applications users.</gco:CharacterString>
+                     </gmd:purpose>
+                     <gmd:credit>
+                        <gco:CharacterString>The software that generates the L4_SM data product and the data system that automates its production were designed and implemented at the NASA Global Modeling and Assimilation Office, Goddard Space Flight Center, Greenbelt, Maryland, USA.</gco:CharacterString>
+                     </gmd:credit>
+                     <gmd:status>
+                        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode"
+                                             codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+                     </gmd:status>
+                     <gmd:aggregationInfo>
+                        <gmd:MD_AggregateInformation>
+                           <gmd:aggregateDataSetName>
+                              <gmd:CI_Citation>
+                                 <gmd:title>
+                                    <gmx:FileName>SMAP_L4_SM_aup_20181027T090000_Vv4030_001.qa</gmx:FileName>
+                                 </gmd:title>
+                                 <gmd:date>
+                                    <gmd:CI_Date>
+                                       <gmd:date>
+                                          <gco:DateTime>2018-10-29T17:11:11.000Z</gco:DateTime>
+                                       </gmd:date>
+                                       <gmd:dateType>
+                                          <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                               codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                       </gmd:dateType>
+                                    </gmd:CI_Date>
+                                 </gmd:date>
+                                 <gmd:otherCitationDetails>
+                                    <gco:CharacterString>An ASCII product that contains statistical information on data product results. These statistics enable data producers and users to assess the quality of the data in the data product granule.</gco:CharacterString>
+                                 </gmd:otherCitationDetails>
+                              </gmd:CI_Citation>
+                           </gmd:aggregateDataSetName>
+                           <gmd:associationType>
+                              <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                                          codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+                           </gmd:associationType>
+                        </gmd:MD_AggregateInformation>
+                     </gmd:aggregationInfo>
+                     <gmd:language>
+                        <gco:CharacterString>eng</gco:CharacterString>
+                     </gmd:language>
+                     <gmd:characterSet>
+                        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode"
+                                                 codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+                     </gmd:characterSet>
+                     <gmd:topicCategory>
+                        <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+                     </gmd:topicCategory>
+                     <gmd:environmentDescription>
+                        <gco:CharacterString>Data product generated by the SMAP mission in HDF5 format with ISO 19115 conformant metadata.</gco:CharacterString>
+                     </gmd:environmentDescription>
+                     <gmd:extent>
+                        <gmd:EX_Extent>
+                           <gmd:description>
+                              <gco:CharacterString>Global land excluding inland water and permanent ice.</gco:CharacterString>
+                           </gmd:description>
+                           <gmd:geographicElement>
+                              <gmd:EX_GeographicBoundingBox>
+                                 <gmd:extentTypeCode>
+                                    <gco:Boolean>1</gco:Boolean>
+                                 </gmd:extentTypeCode>
+                                 <gmd:westBoundLongitude>
+                                    <gco:Decimal>-180</gco:Decimal>
+                                 </gmd:westBoundLongitude>
+                                 <gmd:eastBoundLongitude>
+                                    <gco:Decimal>180</gco:Decimal>
+                                 </gmd:eastBoundLongitude>
+                                 <gmd:southBoundLatitude>
+                                    <gco:Decimal>-85.04456</gco:Decimal>
+                                 </gmd:southBoundLatitude>
+                                 <gmd:northBoundLatitude>
+                                    <gco:Decimal>85.04456</gco:Decimal>
+                                 </gmd:northBoundLatitude>
+                              </gmd:EX_GeographicBoundingBox>
+                           </gmd:geographicElement>
+                           <gmd:temporalElement>
+                              <gmd:EX_TemporalExtent>
+                                 <gmd:extent>
+                                    <gml:TimePeriod gml:id="swathTemporalExtent">
+                                       <gml:beginPosition>2018-10-27T07:30:00.000Z</gml:beginPosition>
+                                       <gml:endPosition>2018-10-27T10:30:00.000Z</gml:endPosition>
+                                    </gml:TimePeriod>
+                                 </gmd:extent>
+                              </gmd:EX_TemporalExtent>
+                           </gmd:temporalElement>
+                        </gmd:EX_Extent>
+                     </gmd:extent>
+                  </gmd:MD_DataIdentification>
+               </gmd:identificationInfo>
+               <gmd:dataQualityInfo>
+                  <gmd:DQ_DataQuality>
+                     <gmd:scope>
+                        <gmd:DQ_Scope>
+                           <gmd:level>
+                              <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                                                codeListValue="attribute">attribute</gmd:MD_ScopeCode>
+                           </gmd:level>
+                           <gmd:levelDescription>
+                              <gmd:MD_ScopeDescription>
+                                 <gmd:dataset>
+                                    <gco:CharacterString>tb_h_forecast</gco:CharacterString>
+                                 </gmd:dataset>
+                              </gmd:MD_ScopeDescription>
+                           </gmd:levelDescription>
+                        </gmd:DQ_Scope>
+                     </gmd:scope>
+                     <gmd:report>
+                        <gmd:DQ_CompletenessOmission>
+                           <gmd:nameOfMeasure>
+                              <gco:CharacterString>Percent of Missing Data</gco:CharacterString>
+                           </gmd:nameOfMeasure>
+                           <gmd:measureDescription>
+                              <gco:CharacterString>Percent of land grid cells (excluding inland water and permanent ice) that lack H-polarized model forecast Tb data relative to the total number of land grid cells that fall within the global domain (excluding inland water and permanent ice). Model forecast Tb is only computed where SMAP Tb observations are ingested.</gco:CharacterString>
+                           </gmd:measureDescription>
+                           <gmd:evaluationMethodType>
+                              <gmd:DQ_EvaluationMethodTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DQ_EvaluationMethodTypeCode"
+                                                               codeListValue="directInternal">directInternal</gmd:DQ_EvaluationMethodTypeCode>
+                           </gmd:evaluationMethodType>
+                           <gmd:result>
+                              <gmd:DQ_QuantitativeResult>
+                                 <gmd:valueUnit>
+                                    <gmx:ML_DerivedUnit gml:id="TBH_F_CO">
+                                       <gml:identifier codeSpace="http://jpl.nasa.gov/undefined">*undefined*</gml:identifier>
+                                       <gml:derivationUnitTerm uom="Percent"/>
+                                       <gmx:alternativeExpression/>
+                                    </gmx:ML_DerivedUnit>
+                                 </gmd:valueUnit>
+                                 <gmd:value>
+                                    <gco:Record xsi:type="gco:Real_PropertyType">
+                                       <gco:Real>94.81759</gco:Real>
+                                    </gco:Record>
+                                 </gmd:value>
+                              </gmd:DQ_QuantitativeResult>
+                           </gmd:result>
+                        </gmd:DQ_CompletenessOmission>
+                     </gmd:report>
+                     <gmd:report>
+                        <gmd:DQ_DomainConsistency>
+                           <gmd:nameOfMeasure>
+                              <gco:CharacterString>Percent of geophysical data that are within the acceptable range.</gco:CharacterString>
+                           </gmd:nameOfMeasure>
+                           <gmd:measureDescription>
+                              <gco:CharacterString>Percent of geophysical data that fall within a predefined acceptable range of measure.</gco:CharacterString>
+                           </gmd:measureDescription>
+                           <gmd:evaluationMethodType>
+                              <gmd:DQ_EvaluationMethodTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DQ_EvaluationMethodTypeCode"
+                                                               codeListValue="directInternal">directInternal</gmd:DQ_EvaluationMethodTypeCode>
+                           </gmd:evaluationMethodType>
+                           <gmd:result>
+                              <gmd:DQ_QuantitativeResult>
+                                 <gmd:valueUnit>
+                                    <gmx:ML_DerivedUnit gml:id="TBH_F_DC">
+                                       <gml:identifier codeSpace="http://jpl.nasa.gov/undefined">*undefined*</gml:identifier>
+                                       <gml:derivationUnitTerm uom="Percent"/>
+                                       <gmx:alternativeExpression/>
+                                    </gmx:ML_DerivedUnit>
+                                 </gmd:valueUnit>
+                                 <gmd:value>
+                                    <gco:Record xsi:type="gco:Real_PropertyType">
+                                       <gco:Real>100</gco:Real>
+                                    </gco:Record>
+                                 </gmd:value>
+                              </gmd:DQ_QuantitativeResult>
+                           </gmd:result>
+                        </gmd:DQ_DomainConsistency>
+                     </gmd:report>
+                     <gmd:lineage>
+                        <gmd:LI_Lineage>
+                           <gmd:processStep>
+                              <gmi:LE_ProcessStep>
+                                 <gmd:description>
+                                    <gco:CharacterString>Assimilates Level 1 and Level 2 SMAP data into a global land surface model to generate spatially complete and temporally continuous estimates of soil moisture and associated land surface conditions.</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:dateTime>
+                                    <gco:DateTime>2018-10-29T17:11:11.000Z</gco:DateTime>
+                                 </gmd:dateTime>
+                                 <gmd:processor>
+                                    <gmd:CI_ResponsibleParty>
+                                       <gmd:organisationName>
+                                          <gco:CharacterString>Soil Moisture Active Passive (SMAP) Mission Science Data System (SDS) Operations Facility</gco:CharacterString>
+                                       </gmd:organisationName>
+                                       <gmd:role>
+                                          <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                                           codeListValue="processor">processor</gmd:CI_RoleCode>
+                                       </gmd:role>
+                                    </gmd:CI_ResponsibleParty>
+                                 </gmd:processor>
+                                 <gmi:processingInformation>
+                                    <eos:EOS_Processing>
+                                       <gmi:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gco:CharacterString>L4_SM_SPS</gco:CharacterString>
+                                             </gmd:code>
+                                          </gmd:MD_Identifier>
+                                       </gmi:identifier>
+                                       <gmi:softwareReference>
+                                          <gmd:CI_Citation>
+                                             <gmd:title>
+                                                <gco:CharacterString>Level 4 Surface and Root Zone Soil Moisture SPS</gco:CharacterString>
+                                             </gmd:title>
+                                             <gmd:date>
+                                                <gmd:CI_Date>
+                                                   <gmd:date>
+                                                      <gco:Date>2018-07-11</gco:Date>
+                                                   </gmd:date>
+                                                   <gmd:dateType>
+                                                      <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                           codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                                   </gmd:dateType>
+                                                </gmd:CI_Date>
+                                             </gmd:date>
+                                             <gmd:edition>
+                                                <gco:CharacterString>reichle-LDASsa_m3-16_6_p1</gco:CharacterString>
+                                             </gmd:edition>
+                                          </gmd:CI_Citation>
+                                       </gmi:softwareReference>
+                                       <gmi:procedureDescription gco:nilReason="unknown"/>
+                                       <gmi:documentation>
+                                          <gmd:CI_Citation>
+                                             <gmd:title>
+                                                <gco:CharacterString>Soil Moisture Active Passive (SMAP) Level 4 Surface and Root Zone Soil Moisture (L4_SM) Algorithm Theoretical Basis Document (ATBD)</gco:CharacterString>
+                                             </gmd:title>
+                                             <gmd:date>
+                                                <gmd:CI_Date>
+                                                   <gmd:date>
+                                                      <gco:Date>2014-12-09</gco:Date>
+                                                   </gmd:date>
+                                                   <gmd:dateType>
+                                                      <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                           codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                                   </gmd:dateType>
+                                                </gmd:CI_Date>
+                                             </gmd:date>
+                                             <gmd:edition>
+                                                <gco:CharacterString>Revision-A</gco:CharacterString>
+                                             </gmd:edition>
+                                          </gmd:CI_Citation>
+                                       </gmi:documentation>
+                                       <gmi:runTimeParameters gco:nilReason="missing"/>
+                                       <gmi:algorithm>
+                                          <gmi:LE_Algorithm>
+                                             <gmi:citation>
+                                                <gmd:CI_Citation>
+                                                   <gmd:title>
+                                                      <gco:CharacterString>Soil Moisture Active Passive (SMAP) Level 4 Surface and Root Zone Soil Moisture (L4_SM) Algorithm Theoretical Basis Document (ATBD)</gco:CharacterString>
+                                                   </gmd:title>
+                                                   <gmd:date>
+                                                      <gmd:CI_Date>
+                                                         <gmd:date>
+                                                            <gco:Date>2014-12-09</gco:Date>
+                                                         </gmd:date>
+                                                         <gmd:dateType>
+                                                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                                 codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                                         </gmd:dateType>
+                                                      </gmd:CI_Date>
+                                                   </gmd:date>
+                                                   <gmd:edition>
+                                                      <gco:CharacterString>Revision-A</gco:CharacterString>
+                                                   </gmd:edition>
+                                                </gmd:CI_Citation>
+                                             </gmi:citation>
+                                             <gmi:description>
+                                                <gco:CharacterString>The L4_SM algorithm is a customized, off-line (land-only) version of the ensemble-based NASA GEOS-5 land data assimilation system. It merges SMAP observations with estimates from a land surface model that is driven with observations-based precipitation forcing.</gco:CharacterString>
+                                             </gmi:description>
+                                          </gmi:LE_Algorithm>
+                                       </gmi:algorithm>
+                                       <eos:otherProperty>
+                                          <gco:Record>
+                                             <eos:EOS_AdditionalAttributes>
+                                                <eos:additionalAttribute>
+                                                   <eos:EOS_AdditionalAttribute>
+                                                      <eos:reference>
+                                                         <eos:EOS_AdditionalAttributeDescription>
+                                                            <eos:type>
+                                                               <eos:EOS_AdditionalAttributeTypeCode codeList="http://cdn.earthdata.nasa.gov/iso/resources/Codelist/eosCodelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                                                    codeListValue="processingInformation">processingInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                                            </eos:type>
+                                                            <eos:identifier>
+                                                               <gmd:MD_Identifier>
+                                                                  <gmd:code>
+                                                                     <gco:CharacterString>uuid for timeVariableEpoch</gco:CharacterString>
+                                                                  </gmd:code>
+                                                                  <gmd:codeSpace>
+                                                                     <gco:CharacterString>http://smap.jpl.nasa.gov</gco:CharacterString>
+                                                                  </gmd:codeSpace>
+                                                               </gmd:MD_Identifier>
+                                                            </eos:identifier>
+                                                            <eos:name>
+                                                               <gco:CharacterString>timeVariableEpoch</gco:CharacterString>
+                                                            </eos:name>
+                                                            <eos:dataType>
+                                                               <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://cdn.earthdata.nasa.gov/iso/resources/Codelist/eosCodelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                                                        codeListValue="string">string</eos:EOS_AdditionalAttributeDataTypeCode>
+                                                            </eos:dataType>
+                                                         </eos:EOS_AdditionalAttributeDescription>
+                                                      </eos:reference>
+                                                      <eos:value>
+                                                         <gco:CharacterString>J2000</gco:CharacterString>
+                                                      </eos:value>
+                                                   </eos:EOS_AdditionalAttribute>
+                                                </eos:additionalAttribute>
+                                                <eos:additionalAttribute>
+                                                   <eos:EOS_AdditionalAttribute>
+                                                      <eos:reference>
+                                                         <eos:EOS_AdditionalAttributeDescription>
+                                                            <eos:type>
+                                                               <eos:EOS_AdditionalAttributeTypeCode codeList="http://cdn.earthdata.nasa.gov/iso/resources/Codelist/eosCodelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                                                    codeListValue="processingInformation">processingInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                                            </eos:type>
+                                                            <eos:identifier>
+                                                               <gmd:MD_Identifier>
+                                                                  <gmd:code>
+                                                                     <gco:CharacterString>uuid for epochJulianDate</gco:CharacterString>
+                                                                  </gmd:code>
+                                                                  <gmd:codeSpace>
+                                                                     <gco:CharacterString>http://smap.jpl.nasa.gov</gco:CharacterString>
+                                                                  </gmd:codeSpace>
+                                                               </gmd:MD_Identifier>
+                                                            </eos:identifier>
+                                                            <eos:name>
+                                                               <gco:CharacterString>epochJulianDate</gco:CharacterString>
+                                                            </eos:name>
+                                                            <eos:dataType>
+                                                               <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://cdn.earthdata.nasa.gov/iso/resources/Codelist/eosCodelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                                                        codeListValue="float">float</eos:EOS_AdditionalAttributeDataTypeCode>
+                                                            </eos:dataType>
+                                                         </eos:EOS_AdditionalAttributeDescription>
+                                                      </eos:reference>
+                                                      <eos:value>
+                                                         <gco:CharacterString>2451545</gco:CharacterString>
+                                                      </eos:value>
+                                                   </eos:EOS_AdditionalAttribute>
+                                                </eos:additionalAttribute>
+                                                <eos:additionalAttribute>
+                                                   <eos:EOS_AdditionalAttribute>
+                                                      <eos:reference>
+                                                         <eos:EOS_AdditionalAttributeDescription>
+                                                            <eos:type>
+                                                               <eos:EOS_AdditionalAttributeTypeCode codeList="http://cdn.earthdata.nasa.gov/iso/resources/Codelist/eosCodelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                                                    codeListValue="processingInformation">processingInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                                            </eos:type>
+                                                            <eos:identifier>
+                                                               <gmd:MD_Identifier>
+                                                                  <gmd:code>
+                                                                     <gco:CharacterString>uuid for epochUTCDateTime</gco:CharacterString>
+                                                                  </gmd:code>
+                                                                  <gmd:codeSpace>
+                                                                     <gco:CharacterString>http://smap.jpl.nasa.gov</gco:CharacterString>
+                                                                  </gmd:codeSpace>
+                                                               </gmd:MD_Identifier>
+                                                            </eos:identifier>
+                                                            <eos:name>
+                                                               <gco:CharacterString>epochUTCDateTime</gco:CharacterString>
+                                                            </eos:name>
+                                                            <eos:dataType>
+                                                               <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://cdn.earthdata.nasa.gov/iso/resources/Codelist/eosCodelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                                                        codeListValue="dateTime">dateTime</eos:EOS_AdditionalAttributeDataTypeCode>
+                                                            </eos:dataType>
+                                                         </eos:EOS_AdditionalAttributeDescription>
+                                                      </eos:reference>
+                                                      <eos:value>
+                                                         <gco:CharacterString>2000-01-01T11:58:55.816Z</gco:CharacterString>
+                                                      </eos:value>
+                                                   </eos:EOS_AdditionalAttribute>
+                                                </eos:additionalAttribute>
+                                             </eos:EOS_AdditionalAttributes>
+                                          </gco:Record>
+                                       </eos:otherProperty>
+                                    </eos:EOS_Processing>
+                                 </gmi:processingInformation>
+                              </gmi:LE_ProcessStep>
+                           </gmd:processStep>
+                           <gmd:source>
+                              <gmi:LE_Source>
+                                 <gmd:description>
+                                    <gco:CharacterString>The SMAP Level 1C Brightness Temperature product, which contains the assimilated SMAP radiometer brightness temperatures on 36 km EASE-Grid 2.0.</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:sourceCitation>
+                                    <gmd:CI_Citation>
+                                       <gmd:title>
+                                          <gmx:FileName>SMAP_L1C_TB_19959_D_20181027T070146_R16010_001.h5</gmx:FileName>
+                                       </gmd:title>
+                                       <gmd:date>
+                                          <gmd:CI_Date>
+                                             <gmd:date>
+                                                <gco:Date>2018-10-27</gco:Date>
+                                             </gmd:date>
+                                             <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                     codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                             </gmd:dateType>
+                                          </gmd:CI_Date>
+                                       </gmd:date>
+                                       <gmd:edition>
+                                          <gco:CharacterString>R16010</gco:CharacterString>
+                                       </gmd:edition>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gco:CharacterString>SPL1CTB</gco:CharacterString>
+                                             </gmd:code>
+                                             <gmd:codeSpace>
+                                                <gco:CharacterString>http://gmao.gsfc.nasa.gov</gco:CharacterString>
+                                             </gmd:codeSpace>
+                                             <gmd:description>
+                                                <gco:CharacterString>A short name used by the Soil Moisture Active Passive (SMAP) mission to identify the Level 4 Radar product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gmx:Anchor xlink:actuate="onRequest"
+                                                            xlink:href="http://dx.doi.org/doi:10.5067/ZVILG0PS6CTI">doi:doi:10.5067/ZVILG0PS6CTI</gmx:Anchor>
+                                             </gmd:code>
+                                             <gmd:codeSpace gco:nilReason="missing"/>
+                                             <gmd:description>
+                                                <gco:CharacterString>A Digital Object Identifier (DOI) that provides a persistent interoperable means to locate the SMAP Level 4 Radar data product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                    </gmd:CI_Citation>
+                                 </gmd:sourceCitation>
+                              </gmi:LE_Source>
+                           </gmd:source>
+                           <gmd:source>
+                              <gmi:LE_Source>
+                                 <gmd:description>
+                                    <gco:CharacterString>The SMAP Level 1C Brightness Temperature product, which contains the assimilated SMAP radiometer brightness temperatures on 36 km EASE-Grid 2.0.</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:sourceCitation>
+                                    <gmd:CI_Citation>
+                                       <gmd:title>
+                                          <gmx:FileName>SMAP_L1C_TB_19960_A_20181027T075101_R16010_001.h5</gmx:FileName>
+                                       </gmd:title>
+                                       <gmd:date>
+                                          <gmd:CI_Date>
+                                             <gmd:date>
+                                                <gco:Date>2018-10-27</gco:Date>
+                                             </gmd:date>
+                                             <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                     codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                             </gmd:dateType>
+                                          </gmd:CI_Date>
+                                       </gmd:date>
+                                       <gmd:edition>
+                                          <gco:CharacterString>R16010</gco:CharacterString>
+                                       </gmd:edition>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gco:CharacterString>SPL1CTB</gco:CharacterString>
+                                             </gmd:code>
+                                             <gmd:codeSpace>
+                                                <gco:CharacterString>http://gmao.gsfc.nasa.gov</gco:CharacterString>
+                                             </gmd:codeSpace>
+                                             <gmd:description>
+                                                <gco:CharacterString>A short name used by the Soil Moisture Active Passive (SMAP) mission to identify the Level 4 Radar product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gmx:Anchor xlink:actuate="onRequest"
+                                                            xlink:href="http://dx.doi.org/doi:10.5067/ZVILG0PS6CTI">doi:doi:10.5067/ZVILG0PS6CTI</gmx:Anchor>
+                                             </gmd:code>
+                                             <gmd:codeSpace gco:nilReason="missing"/>
+                                             <gmd:description>
+                                                <gco:CharacterString>A Digital Object Identifier (DOI) that provides a persistent interoperable means to locate the SMAP Level 4 Radar data product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                    </gmd:CI_Citation>
+                                 </gmd:sourceCitation>
+                              </gmi:LE_Source>
+                           </gmd:source>
+                           <gmd:source>
+                              <gmi:LE_Source>
+                                 <gmd:description>
+                                    <gco:CharacterString>The SMAP Level 1C Brightness Temperature product, which contains the assimilated SMAP radiometer brightness temperatures on 36 km EASE-Grid 2.0.</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:sourceCitation>
+                                    <gmd:CI_Citation>
+                                       <gmd:title>
+                                          <gmx:FileName>SMAP_L1C_TB_19960_D_20181027T084016_R16010_001.h5</gmx:FileName>
+                                       </gmd:title>
+                                       <gmd:date>
+                                          <gmd:CI_Date>
+                                             <gmd:date>
+                                                <gco:Date>2018-10-27</gco:Date>
+                                             </gmd:date>
+                                             <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                     codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                             </gmd:dateType>
+                                          </gmd:CI_Date>
+                                       </gmd:date>
+                                       <gmd:edition>
+                                          <gco:CharacterString>R16010</gco:CharacterString>
+                                       </gmd:edition>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gco:CharacterString>SPL1CTB</gco:CharacterString>
+                                             </gmd:code>
+                                             <gmd:codeSpace>
+                                                <gco:CharacterString>http://gmao.gsfc.nasa.gov</gco:CharacterString>
+                                             </gmd:codeSpace>
+                                             <gmd:description>
+                                                <gco:CharacterString>A short name used by the Soil Moisture Active Passive (SMAP) mission to identify the Level 4 Radar product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gmx:Anchor xlink:actuate="onRequest"
+                                                            xlink:href="http://dx.doi.org/doi:10.5067/ZVILG0PS6CTI">doi:doi:10.5067/ZVILG0PS6CTI</gmx:Anchor>
+                                             </gmd:code>
+                                             <gmd:codeSpace gco:nilReason="missing"/>
+                                             <gmd:description>
+                                                <gco:CharacterString>A Digital Object Identifier (DOI) that provides a persistent interoperable means to locate the SMAP Level 4 Radar data product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                    </gmd:CI_Citation>
+                                 </gmd:sourceCitation>
+                              </gmi:LE_Source>
+                           </gmd:source>
+                           <gmd:source>
+                              <gmi:LE_Source>
+                                 <gmd:description>
+                                    <gco:CharacterString>The SMAP Level 1C Brightness Temperature product, which contains the assimilated SMAP radiometer brightness temperatures on 36 km EASE-Grid 2.0.</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:sourceCitation>
+                                    <gmd:CI_Citation>
+                                       <gmd:title>
+                                          <gmx:FileName>SMAP_L1C_TB_19961_A_20181027T092926_R16010_001.h5</gmx:FileName>
+                                       </gmd:title>
+                                       <gmd:date>
+                                          <gmd:CI_Date>
+                                             <gmd:date>
+                                                <gco:Date>2018-10-27</gco:Date>
+                                             </gmd:date>
+                                             <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                     codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                             </gmd:dateType>
+                                          </gmd:CI_Date>
+                                       </gmd:date>
+                                       <gmd:edition>
+                                          <gco:CharacterString>R16010</gco:CharacterString>
+                                       </gmd:edition>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gco:CharacterString>SPL1CTB</gco:CharacterString>
+                                             </gmd:code>
+                                             <gmd:codeSpace>
+                                                <gco:CharacterString>http://gmao.gsfc.nasa.gov</gco:CharacterString>
+                                             </gmd:codeSpace>
+                                             <gmd:description>
+                                                <gco:CharacterString>A short name used by the Soil Moisture Active Passive (SMAP) mission to identify the Level 4 Radar product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gmx:Anchor xlink:actuate="onRequest"
+                                                            xlink:href="http://dx.doi.org/doi:10.5067/ZVILG0PS6CTI">doi:doi:10.5067/ZVILG0PS6CTI</gmx:Anchor>
+                                             </gmd:code>
+                                             <gmd:codeSpace gco:nilReason="missing"/>
+                                             <gmd:description>
+                                                <gco:CharacterString>A Digital Object Identifier (DOI) that provides a persistent interoperable means to locate the SMAP Level 4 Radar data product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                    </gmd:CI_Citation>
+                                 </gmd:sourceCitation>
+                              </gmi:LE_Source>
+                           </gmd:source>
+                           <gmd:source>
+                              <gmi:LE_Source>
+                                 <gmd:description>
+                                    <gco:CharacterString>The SMAP Level 1C Brightness Temperature product, which contains the assimilated SMAP radiometer brightness temperatures on 36 km EASE-Grid 2.0.</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:sourceCitation>
+                                    <gmd:CI_Citation>
+                                       <gmd:title>
+                                          <gmx:FileName>SMAP_L1C_TB_19961_D_20181027T101841_R16010_001.h5</gmx:FileName>
+                                       </gmd:title>
+                                       <gmd:date>
+                                          <gmd:CI_Date>
+                                             <gmd:date>
+                                                <gco:Date>2018-10-27</gco:Date>
+                                             </gmd:date>
+                                             <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                     codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                             </gmd:dateType>
+                                          </gmd:CI_Date>
+                                       </gmd:date>
+                                       <gmd:edition>
+                                          <gco:CharacterString>R16010</gco:CharacterString>
+                                       </gmd:edition>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gco:CharacterString>SPL1CTB</gco:CharacterString>
+                                             </gmd:code>
+                                             <gmd:codeSpace>
+                                                <gco:CharacterString>http://gmao.gsfc.nasa.gov</gco:CharacterString>
+                                             </gmd:codeSpace>
+                                             <gmd:description>
+                                                <gco:CharacterString>A short name used by the Soil Moisture Active Passive (SMAP) mission to identify the Level 4 Radar product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gmx:Anchor xlink:actuate="onRequest"
+                                                            xlink:href="http://dx.doi.org/doi:10.5067/ZVILG0PS6CTI">doi:doi:10.5067/ZVILG0PS6CTI</gmx:Anchor>
+                                             </gmd:code>
+                                             <gmd:codeSpace gco:nilReason="missing"/>
+                                             <gmd:description>
+                                                <gco:CharacterString>A Digital Object Identifier (DOI) that provides a persistent interoperable means to locate the SMAP Level 4 Radar data product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                    </gmd:CI_Citation>
+                                 </gmd:sourceCitation>
+                              </gmi:LE_Source>
+                           </gmd:source>
+                        </gmd:LI_Lineage>
+                     </gmd:lineage>
+                  </gmd:DQ_DataQuality>
+               </gmd:dataQualityInfo>
+               <gmd:dataQualityInfo>
+                  <gmd:DQ_DataQuality>
+                     <gmd:scope>
+                        <gmd:DQ_Scope>
+                           <gmd:level>
+                              <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                                                codeListValue="attribute">attribute</gmd:MD_ScopeCode>
+                           </gmd:level>
+                           <gmd:levelDescription>
+                              <gmd:MD_ScopeDescription>
+                                 <gmd:dataset>
+                                    <gco:CharacterString>tb_v_forecast</gco:CharacterString>
+                                 </gmd:dataset>
+                              </gmd:MD_ScopeDescription>
+                           </gmd:levelDescription>
+                        </gmd:DQ_Scope>
+                     </gmd:scope>
+                     <gmd:report>
+                        <gmd:DQ_CompletenessOmission>
+                           <gmd:nameOfMeasure>
+                              <gco:CharacterString>Percent of Missing Data</gco:CharacterString>
+                           </gmd:nameOfMeasure>
+                           <gmd:measureDescription>
+                              <gco:CharacterString>Percent of land grid cells (excluding inland water and permanent ice) that lack V-polarized model forecast Tb data relative to the total number of land grid cells that fall within the global domain (excluding inland water and permanent ice). Model forecast Tb is only computed where SMAP Tb observations are ingested.</gco:CharacterString>
+                           </gmd:measureDescription>
+                           <gmd:evaluationMethodType>
+                              <gmd:DQ_EvaluationMethodTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DQ_EvaluationMethodTypeCode"
+                                                               codeListValue="directInternal">directInternal</gmd:DQ_EvaluationMethodTypeCode>
+                           </gmd:evaluationMethodType>
+                           <gmd:result>
+                              <gmd:DQ_QuantitativeResult>
+                                 <gmd:valueUnit>
+                                    <gmx:ML_DerivedUnit gml:id="TBV_F_CO">
+                                       <gml:identifier codeSpace="http://jpl.nasa.gov/undefined">*undefined*</gml:identifier>
+                                       <gml:derivationUnitTerm uom="Percent"/>
+                                       <gmx:alternativeExpression/>
+                                    </gmx:ML_DerivedUnit>
+                                 </gmd:valueUnit>
+                                 <gmd:value>
+                                    <gco:Record xsi:type="gco:Real_PropertyType">
+                                       <gco:Real>94.83447</gco:Real>
+                                    </gco:Record>
+                                 </gmd:value>
+                              </gmd:DQ_QuantitativeResult>
+                           </gmd:result>
+                        </gmd:DQ_CompletenessOmission>
+                     </gmd:report>
+                     <gmd:report>
+                        <gmd:DQ_DomainConsistency>
+                           <gmd:nameOfMeasure>
+                              <gco:CharacterString>Percent of geophysical data that are within the acceptable range.</gco:CharacterString>
+                           </gmd:nameOfMeasure>
+                           <gmd:measureDescription>
+                              <gco:CharacterString>Percent of geophysical data that fall within a predefined acceptable range of measure.</gco:CharacterString>
+                           </gmd:measureDescription>
+                           <gmd:evaluationMethodType>
+                              <gmd:DQ_EvaluationMethodTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DQ_EvaluationMethodTypeCode"
+                                                               codeListValue="directInternal">directInternal</gmd:DQ_EvaluationMethodTypeCode>
+                           </gmd:evaluationMethodType>
+                           <gmd:result>
+                              <gmd:DQ_QuantitativeResult>
+                                 <gmd:valueUnit>
+                                    <gmx:ML_DerivedUnit gml:id="TBV_F_DC">
+                                       <gml:identifier codeSpace="http://jpl.nasa.gov/undefined">*undefined*</gml:identifier>
+                                       <gml:derivationUnitTerm uom="Percent"/>
+                                       <gmx:alternativeExpression/>
+                                    </gmx:ML_DerivedUnit>
+                                 </gmd:valueUnit>
+                                 <gmd:value>
+                                    <gco:Record xsi:type="gco:Real_PropertyType">
+                                       <gco:Real>100</gco:Real>
+                                    </gco:Record>
+                                 </gmd:value>
+                              </gmd:DQ_QuantitativeResult>
+                           </gmd:result>
+                        </gmd:DQ_DomainConsistency>
+                     </gmd:report>
+                     <gmd:lineage>
+                        <gmd:LI_Lineage>
+                           <gmd:processStep>
+                              <gmi:LE_ProcessStep>
+                                 <gmd:description>
+                                    <gco:CharacterString>Assimilates Level 1 and Level 2 SMAP data into a global land surface model to generate spatially complete and temporally continuous estimates of soil moisture and associated land surface conditions.</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:dateTime>
+                                    <gco:DateTime>2018-10-29T17:11:11.000Z</gco:DateTime>
+                                 </gmd:dateTime>
+                                 <gmd:processor>
+                                    <gmd:CI_ResponsibleParty>
+                                       <gmd:organisationName>
+                                          <gco:CharacterString>Soil Moisture Active Passive (SMAP) Mission Science Data System (SDS) Operations Facility</gco:CharacterString>
+                                       </gmd:organisationName>
+                                       <gmd:role>
+                                          <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                                           codeListValue="processor">processor</gmd:CI_RoleCode>
+                                       </gmd:role>
+                                    </gmd:CI_ResponsibleParty>
+                                 </gmd:processor>
+                                 <gmi:processingInformation>
+                                    <eos:EOS_Processing>
+                                       <gmi:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gco:CharacterString>L4_SM_SPS</gco:CharacterString>
+                                             </gmd:code>
+                                          </gmd:MD_Identifier>
+                                       </gmi:identifier>
+                                       <gmi:softwareReference>
+                                          <gmd:CI_Citation>
+                                             <gmd:title>
+                                                <gco:CharacterString>Level 4 Surface and Root Zone Soil Moisture SPS</gco:CharacterString>
+                                             </gmd:title>
+                                             <gmd:date>
+                                                <gmd:CI_Date>
+                                                   <gmd:date>
+                                                      <gco:Date>2018-07-11</gco:Date>
+                                                   </gmd:date>
+                                                   <gmd:dateType>
+                                                      <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                           codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                                   </gmd:dateType>
+                                                </gmd:CI_Date>
+                                             </gmd:date>
+                                             <gmd:edition>
+                                                <gco:CharacterString>reichle-LDASsa_m3-16_6_p1</gco:CharacterString>
+                                             </gmd:edition>
+                                          </gmd:CI_Citation>
+                                       </gmi:softwareReference>
+                                       <gmi:procedureDescription gco:nilReason="unknown"/>
+                                       <gmi:documentation>
+                                          <gmd:CI_Citation>
+                                             <gmd:title>
+                                                <gco:CharacterString>Soil Moisture Active Passive (SMAP) Level 4 Surface and Root Zone Soil Moisture (L4_SM) Algorithm Theoretical Basis Document (ATBD)</gco:CharacterString>
+                                             </gmd:title>
+                                             <gmd:date>
+                                                <gmd:CI_Date>
+                                                   <gmd:date>
+                                                      <gco:Date>2014-12-09</gco:Date>
+                                                   </gmd:date>
+                                                   <gmd:dateType>
+                                                      <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                           codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                                   </gmd:dateType>
+                                                </gmd:CI_Date>
+                                             </gmd:date>
+                                             <gmd:edition>
+                                                <gco:CharacterString>Revision-A</gco:CharacterString>
+                                             </gmd:edition>
+                                          </gmd:CI_Citation>
+                                       </gmi:documentation>
+                                       <gmi:runTimeParameters gco:nilReason="missing"/>
+                                       <gmi:algorithm>
+                                          <gmi:LE_Algorithm>
+                                             <gmi:citation>
+                                                <gmd:CI_Citation>
+                                                   <gmd:title>
+                                                      <gco:CharacterString>Soil Moisture Active Passive (SMAP) Level 4 Surface and Root Zone Soil Moisture (L4_SM) Algorithm Theoretical Basis Document (ATBD)</gco:CharacterString>
+                                                   </gmd:title>
+                                                   <gmd:date>
+                                                      <gmd:CI_Date>
+                                                         <gmd:date>
+                                                            <gco:Date>2014-12-09</gco:Date>
+                                                         </gmd:date>
+                                                         <gmd:dateType>
+                                                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                                 codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                                         </gmd:dateType>
+                                                      </gmd:CI_Date>
+                                                   </gmd:date>
+                                                   <gmd:edition>
+                                                      <gco:CharacterString>Revision-A</gco:CharacterString>
+                                                   </gmd:edition>
+                                                </gmd:CI_Citation>
+                                             </gmi:citation>
+                                             <gmi:description>
+                                                <gco:CharacterString>The L4_SM algorithm is a customized, off-line (land-only) version of the ensemble-based NASA GEOS-5 land data assimilation system. It merges SMAP observations with estimates from a land surface model that is driven with observations-based precipitation forcing.</gco:CharacterString>
+                                             </gmi:description>
+                                          </gmi:LE_Algorithm>
+                                       </gmi:algorithm>
+                                       <eos:otherProperty>
+                                          <gco:Record>
+                                             <eos:EOS_AdditionalAttributes>
+                                                <eos:additionalAttribute>
+                                                   <eos:EOS_AdditionalAttribute>
+                                                      <eos:reference>
+                                                         <eos:EOS_AdditionalAttributeDescription>
+                                                            <eos:type>
+                                                               <eos:EOS_AdditionalAttributeTypeCode codeList="http://cdn.earthdata.nasa.gov/iso/resources/Codelist/eosCodelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                                                    codeListValue="processingInformation">processingInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                                            </eos:type>
+                                                            <eos:identifier>
+                                                               <gmd:MD_Identifier>
+                                                                  <gmd:code>
+                                                                     <gco:CharacterString>uuid for timeVariableEpoch</gco:CharacterString>
+                                                                  </gmd:code>
+                                                                  <gmd:codeSpace>
+                                                                     <gco:CharacterString>http://smap.jpl.nasa.gov</gco:CharacterString>
+                                                                  </gmd:codeSpace>
+                                                               </gmd:MD_Identifier>
+                                                            </eos:identifier>
+                                                            <eos:name>
+                                                               <gco:CharacterString>timeVariableEpoch</gco:CharacterString>
+                                                            </eos:name>
+                                                            <eos:dataType>
+                                                               <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://cdn.earthdata.nasa.gov/iso/resources/Codelist/eosCodelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                                                        codeListValue="string">string</eos:EOS_AdditionalAttributeDataTypeCode>
+                                                            </eos:dataType>
+                                                         </eos:EOS_AdditionalAttributeDescription>
+                                                      </eos:reference>
+                                                      <eos:value>
+                                                         <gco:CharacterString>J2000</gco:CharacterString>
+                                                      </eos:value>
+                                                   </eos:EOS_AdditionalAttribute>
+                                                </eos:additionalAttribute>
+                                                <eos:additionalAttribute>
+                                                   <eos:EOS_AdditionalAttribute>
+                                                      <eos:reference>
+                                                         <eos:EOS_AdditionalAttributeDescription>
+                                                            <eos:type>
+                                                               <eos:EOS_AdditionalAttributeTypeCode codeList="http://cdn.earthdata.nasa.gov/iso/resources/Codelist/eosCodelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                                                    codeListValue="processingInformation">processingInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                                            </eos:type>
+                                                            <eos:identifier>
+                                                               <gmd:MD_Identifier>
+                                                                  <gmd:code>
+                                                                     <gco:CharacterString>uuid for epochJulianDate</gco:CharacterString>
+                                                                  </gmd:code>
+                                                                  <gmd:codeSpace>
+                                                                     <gco:CharacterString>http://smap.jpl.nasa.gov</gco:CharacterString>
+                                                                  </gmd:codeSpace>
+                                                               </gmd:MD_Identifier>
+                                                            </eos:identifier>
+                                                            <eos:name>
+                                                               <gco:CharacterString>epochJulianDate</gco:CharacterString>
+                                                            </eos:name>
+                                                            <eos:dataType>
+                                                               <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://cdn.earthdata.nasa.gov/iso/resources/Codelist/eosCodelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                                                        codeListValue="float">float</eos:EOS_AdditionalAttributeDataTypeCode>
+                                                            </eos:dataType>
+                                                         </eos:EOS_AdditionalAttributeDescription>
+                                                      </eos:reference>
+                                                      <eos:value>
+                                                         <gco:CharacterString>2451545</gco:CharacterString>
+                                                      </eos:value>
+                                                   </eos:EOS_AdditionalAttribute>
+                                                </eos:additionalAttribute>
+                                                <eos:additionalAttribute>
+                                                   <eos:EOS_AdditionalAttribute>
+                                                      <eos:reference>
+                                                         <eos:EOS_AdditionalAttributeDescription>
+                                                            <eos:type>
+                                                               <eos:EOS_AdditionalAttributeTypeCode codeList="http://cdn.earthdata.nasa.gov/iso/resources/Codelist/eosCodelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                                                    codeListValue="processingInformation">processingInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                                            </eos:type>
+                                                            <eos:identifier>
+                                                               <gmd:MD_Identifier>
+                                                                  <gmd:code>
+                                                                     <gco:CharacterString>uuid for epochUTCDateTime</gco:CharacterString>
+                                                                  </gmd:code>
+                                                                  <gmd:codeSpace>
+                                                                     <gco:CharacterString>http://smap.jpl.nasa.gov</gco:CharacterString>
+                                                                  </gmd:codeSpace>
+                                                               </gmd:MD_Identifier>
+                                                            </eos:identifier>
+                                                            <eos:name>
+                                                               <gco:CharacterString>epochUTCDateTime</gco:CharacterString>
+                                                            </eos:name>
+                                                            <eos:dataType>
+                                                               <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://cdn.earthdata.nasa.gov/iso/resources/Codelist/eosCodelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                                                        codeListValue="dateTime">dateTime</eos:EOS_AdditionalAttributeDataTypeCode>
+                                                            </eos:dataType>
+                                                         </eos:EOS_AdditionalAttributeDescription>
+                                                      </eos:reference>
+                                                      <eos:value>
+                                                         <gco:CharacterString>2000-01-01T11:58:55.816Z</gco:CharacterString>
+                                                      </eos:value>
+                                                   </eos:EOS_AdditionalAttribute>
+                                                </eos:additionalAttribute>
+                                             </eos:EOS_AdditionalAttributes>
+                                          </gco:Record>
+                                       </eos:otherProperty>
+                                    </eos:EOS_Processing>
+                                 </gmi:processingInformation>
+                              </gmi:LE_ProcessStep>
+                           </gmd:processStep>
+                           <gmd:source>
+                              <gmi:LE_Source>
+                                 <gmd:description>
+                                    <gco:CharacterString>The SMAP Level 1C Brightness Temperature product, which contains the assimilated SMAP radiometer brightness temperatures on 36 km EASE-Grid 2.0.</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:sourceCitation>
+                                    <gmd:CI_Citation>
+                                       <gmd:title>
+                                          <gmx:FileName>SMAP_L1C_TB_19959_D_20181027T070146_R16010_001.h5</gmx:FileName>
+                                       </gmd:title>
+                                       <gmd:date>
+                                          <gmd:CI_Date>
+                                             <gmd:date>
+                                                <gco:Date>2018-10-27</gco:Date>
+                                             </gmd:date>
+                                             <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                     codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                             </gmd:dateType>
+                                          </gmd:CI_Date>
+                                       </gmd:date>
+                                       <gmd:edition>
+                                          <gco:CharacterString>R16010</gco:CharacterString>
+                                       </gmd:edition>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gco:CharacterString>SPL1CTB</gco:CharacterString>
+                                             </gmd:code>
+                                             <gmd:codeSpace>
+                                                <gco:CharacterString>http://gmao.gsfc.nasa.gov</gco:CharacterString>
+                                             </gmd:codeSpace>
+                                             <gmd:description>
+                                                <gco:CharacterString>A short name used by the Soil Moisture Active Passive (SMAP) mission to identify the Level 4 Radar product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gmx:Anchor xlink:actuate="onRequest"
+                                                            xlink:href="http://dx.doi.org/doi:10.5067/ZVILG0PS6CTI">doi:doi:10.5067/ZVILG0PS6CTI</gmx:Anchor>
+                                             </gmd:code>
+                                             <gmd:codeSpace gco:nilReason="missing"/>
+                                             <gmd:description>
+                                                <gco:CharacterString>A Digital Object Identifier (DOI) that provides a persistent interoperable means to locate the SMAP Level 4 Radar data product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                    </gmd:CI_Citation>
+                                 </gmd:sourceCitation>
+                              </gmi:LE_Source>
+                           </gmd:source>
+                           <gmd:source>
+                              <gmi:LE_Source>
+                                 <gmd:description>
+                                    <gco:CharacterString>The SMAP Level 1C Brightness Temperature product, which contains the assimilated SMAP radiometer brightness temperatures on 36 km EASE-Grid 2.0.</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:sourceCitation>
+                                    <gmd:CI_Citation>
+                                       <gmd:title>
+                                          <gmx:FileName>SMAP_L1C_TB_19960_A_20181027T075101_R16010_001.h5</gmx:FileName>
+                                       </gmd:title>
+                                       <gmd:date>
+                                          <gmd:CI_Date>
+                                             <gmd:date>
+                                                <gco:Date>2018-10-27</gco:Date>
+                                             </gmd:date>
+                                             <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                     codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                             </gmd:dateType>
+                                          </gmd:CI_Date>
+                                       </gmd:date>
+                                       <gmd:edition>
+                                          <gco:CharacterString>R16010</gco:CharacterString>
+                                       </gmd:edition>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gco:CharacterString>SPL1CTB</gco:CharacterString>
+                                             </gmd:code>
+                                             <gmd:codeSpace>
+                                                <gco:CharacterString>http://gmao.gsfc.nasa.gov</gco:CharacterString>
+                                             </gmd:codeSpace>
+                                             <gmd:description>
+                                                <gco:CharacterString>A short name used by the Soil Moisture Active Passive (SMAP) mission to identify the Level 4 Radar product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gmx:Anchor xlink:actuate="onRequest"
+                                                            xlink:href="http://dx.doi.org/doi:10.5067/ZVILG0PS6CTI">doi:doi:10.5067/ZVILG0PS6CTI</gmx:Anchor>
+                                             </gmd:code>
+                                             <gmd:codeSpace gco:nilReason="missing"/>
+                                             <gmd:description>
+                                                <gco:CharacterString>A Digital Object Identifier (DOI) that provides a persistent interoperable means to locate the SMAP Level 4 Radar data product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                    </gmd:CI_Citation>
+                                 </gmd:sourceCitation>
+                              </gmi:LE_Source>
+                           </gmd:source>
+                           <gmd:source>
+                              <gmi:LE_Source>
+                                 <gmd:description>
+                                    <gco:CharacterString>The SMAP Level 1C Brightness Temperature product, which contains the assimilated SMAP radiometer brightness temperatures on 36 km EASE-Grid 2.0.</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:sourceCitation>
+                                    <gmd:CI_Citation>
+                                       <gmd:title>
+                                          <gmx:FileName>SMAP_L1C_TB_19960_D_20181027T084016_R16010_001.h5</gmx:FileName>
+                                       </gmd:title>
+                                       <gmd:date>
+                                          <gmd:CI_Date>
+                                             <gmd:date>
+                                                <gco:Date>2018-10-27</gco:Date>
+                                             </gmd:date>
+                                             <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                     codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                             </gmd:dateType>
+                                          </gmd:CI_Date>
+                                       </gmd:date>
+                                       <gmd:edition>
+                                          <gco:CharacterString>R16010</gco:CharacterString>
+                                       </gmd:edition>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gco:CharacterString>SPL1CTB</gco:CharacterString>
+                                             </gmd:code>
+                                             <gmd:codeSpace>
+                                                <gco:CharacterString>http://gmao.gsfc.nasa.gov</gco:CharacterString>
+                                             </gmd:codeSpace>
+                                             <gmd:description>
+                                                <gco:CharacterString>A short name used by the Soil Moisture Active Passive (SMAP) mission to identify the Level 4 Radar product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gmx:Anchor xlink:actuate="onRequest"
+                                                            xlink:href="http://dx.doi.org/doi:10.5067/ZVILG0PS6CTI">doi:doi:10.5067/ZVILG0PS6CTI</gmx:Anchor>
+                                             </gmd:code>
+                                             <gmd:codeSpace gco:nilReason="missing"/>
+                                             <gmd:description>
+                                                <gco:CharacterString>A Digital Object Identifier (DOI) that provides a persistent interoperable means to locate the SMAP Level 4 Radar data product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                    </gmd:CI_Citation>
+                                 </gmd:sourceCitation>
+                              </gmi:LE_Source>
+                           </gmd:source>
+                           <gmd:source>
+                              <gmi:LE_Source>
+                                 <gmd:description>
+                                    <gco:CharacterString>The SMAP Level 1C Brightness Temperature product, which contains the assimilated SMAP radiometer brightness temperatures on 36 km EASE-Grid 2.0.</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:sourceCitation>
+                                    <gmd:CI_Citation>
+                                       <gmd:title>
+                                          <gmx:FileName>SMAP_L1C_TB_19961_A_20181027T092926_R16010_001.h5</gmx:FileName>
+                                       </gmd:title>
+                                       <gmd:date>
+                                          <gmd:CI_Date>
+                                             <gmd:date>
+                                                <gco:Date>2018-10-27</gco:Date>
+                                             </gmd:date>
+                                             <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                     codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                             </gmd:dateType>
+                                          </gmd:CI_Date>
+                                       </gmd:date>
+                                       <gmd:edition>
+                                          <gco:CharacterString>R16010</gco:CharacterString>
+                                       </gmd:edition>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gco:CharacterString>SPL1CTB</gco:CharacterString>
+                                             </gmd:code>
+                                             <gmd:codeSpace>
+                                                <gco:CharacterString>http://gmao.gsfc.nasa.gov</gco:CharacterString>
+                                             </gmd:codeSpace>
+                                             <gmd:description>
+                                                <gco:CharacterString>A short name used by the Soil Moisture Active Passive (SMAP) mission to identify the Level 4 Radar product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gmx:Anchor xlink:actuate="onRequest"
+                                                            xlink:href="http://dx.doi.org/doi:10.5067/ZVILG0PS6CTI">doi:doi:10.5067/ZVILG0PS6CTI</gmx:Anchor>
+                                             </gmd:code>
+                                             <gmd:codeSpace gco:nilReason="missing"/>
+                                             <gmd:description>
+                                                <gco:CharacterString>A Digital Object Identifier (DOI) that provides a persistent interoperable means to locate the SMAP Level 4 Radar data product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                    </gmd:CI_Citation>
+                                 </gmd:sourceCitation>
+                              </gmi:LE_Source>
+                           </gmd:source>
+                           <gmd:source>
+                              <gmi:LE_Source>
+                                 <gmd:description>
+                                    <gco:CharacterString>The SMAP Level 1C Brightness Temperature product, which contains the assimilated SMAP radiometer brightness temperatures on 36 km EASE-Grid 2.0.</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:sourceCitation>
+                                    <gmd:CI_Citation>
+                                       <gmd:title>
+                                          <gmx:FileName>SMAP_L1C_TB_19961_D_20181027T101841_R16010_001.h5</gmx:FileName>
+                                       </gmd:title>
+                                       <gmd:date>
+                                          <gmd:CI_Date>
+                                             <gmd:date>
+                                                <gco:Date>2018-10-27</gco:Date>
+                                             </gmd:date>
+                                             <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                     codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                             </gmd:dateType>
+                                          </gmd:CI_Date>
+                                       </gmd:date>
+                                       <gmd:edition>
+                                          <gco:CharacterString>R16010</gco:CharacterString>
+                                       </gmd:edition>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gco:CharacterString>SPL1CTB</gco:CharacterString>
+                                             </gmd:code>
+                                             <gmd:codeSpace>
+                                                <gco:CharacterString>http://gmao.gsfc.nasa.gov</gco:CharacterString>
+                                             </gmd:codeSpace>
+                                             <gmd:description>
+                                                <gco:CharacterString>A short name used by the Soil Moisture Active Passive (SMAP) mission to identify the Level 4 Radar product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                       <gmd:identifier>
+                                          <gmd:MD_Identifier>
+                                             <gmd:code>
+                                                <gmx:Anchor xlink:actuate="onRequest"
+                                                            xlink:href="http://dx.doi.org/doi:10.5067/ZVILG0PS6CTI">doi:doi:10.5067/ZVILG0PS6CTI</gmx:Anchor>
+                                             </gmd:code>
+                                             <gmd:codeSpace gco:nilReason="missing"/>
+                                             <gmd:description>
+                                                <gco:CharacterString>A Digital Object Identifier (DOI) that provides a persistent interoperable means to locate the SMAP Level 4 Radar data product.</gco:CharacterString>
+                                             </gmd:description>
+                                          </gmd:MD_Identifier>
+                                       </gmd:identifier>
+                                    </gmd:CI_Citation>
+                                 </gmd:sourceCitation>
+                              </gmi:LE_Source>
+                           </gmd:source>
+                        </gmd:LI_Lineage>
+                     </gmd:lineage>
+                  </gmd:DQ_DataQuality>
+               </gmd:dataQualityInfo>
+               <gmi:acquisitionInformation>
+                  <gmi:MI_AcquisitionInformation>
+                     <gmi:platform>
+                        <gmi:MI_Platform>
+                           <gmi:citation>
+                              <gmd:CI_Citation>
+                                 <gmd:title>
+                                    <gco:CharacterString>SMAP Handbook</gco:CharacterString>
+                                 </gmd:title>
+                                 <gmd:date>
+                                    <gmd:CI_Date>
+                                       <gmd:date>
+                                          <gco:Date>2014-07-01</gco:Date>
+                                       </gmd:date>
+                                       <gmd:dateType>
+                                          <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                               codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                       </gmd:dateType>
+                                    </gmd:CI_Date>
+                                 </gmd:date>
+                                 <gmd:edition>
+                                    <gco:CharacterString>JPL CL#14-2285, JPL 400-1567</gco:CharacterString>
+                                 </gmd:edition>
+                              </gmd:CI_Citation>
+                           </gmi:citation>
+                           <gmi:identifier>
+                              <gmd:MD_Identifier>
+                                 <gmd:code>
+                                    <gco:CharacterString>SMAP</gco:CharacterString>
+                                 </gmd:code>
+                                 <gmd:codeSpace>
+                                    <gco:CharacterString>http://smap.jpl.nasa.gov</gco:CharacterString>
+                                 </gmd:codeSpace>
+                              </gmd:MD_Identifier>
+                           </gmi:identifier>
+                           <gmi:description>
+                              <gco:CharacterString>The SMAP observatory houses an L-band radiometer that operates at 1.4 GHz and an L-band radar that operates at 1.26-1.29 GHz. The instruments share a rotating reflector antenna with a 6 meter aperture that scans over a 1000 km swath. The bus is a 3 axis stabilized spacecraft that provides momentum compensation for the rotating antenna.</gco:CharacterString>
+                           </gmi:description>
+                           <gmi:instrument>
+                              <gmi:MI_Instrument>
+                                 <gmi:citation>
+                                    <gmd:CI_Citation>
+                                       <gmd:title>
+                                          <gco:CharacterString>SMAP Handbook</gco:CharacterString>
+                                       </gmd:title>
+                                       <gmd:date>
+                                          <gmd:CI_Date>
+                                             <gmd:date>
+                                                <gco:Date>2014-07-01</gco:Date>
+                                             </gmd:date>
+                                             <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                     codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                             </gmd:dateType>
+                                          </gmd:CI_Date>
+                                       </gmd:date>
+                                       <gmd:edition>
+                                          <gco:CharacterString>JPL CL#14-2285, JPL 400-1567</gco:CharacterString>
+                                       </gmd:edition>
+                                    </gmd:CI_Citation>
+                                 </gmi:citation>
+                                 <gmi:identifier>
+                                    <gmd:MD_Identifier>
+                                       <gmd:code>
+                                          <gco:CharacterString>SMAP SAR</gco:CharacterString>
+                                       </gmd:code>
+                                    </gmd:MD_Identifier>
+                                 </gmi:identifier>
+                                 <gmi:type>
+                                    <gco:CharacterString>L-band Synthetic Aperture Radar</gco:CharacterString>
+                                 </gmi:type>
+                                 <gmi:description>
+                                    <gco:CharacterString>The SMAP radar instrument employs an L-band conically scanned system and SAR processing techniques to achieve moderate resolution (1 km) backscatter measurements over a very wide 1000 km swath.</gco:CharacterString>
+                                 </gmi:description>
+                              </gmi:MI_Instrument>
+                           </gmi:instrument>
+                           <gmi:instrument>
+                              <gmi:MI_Instrument>
+                                 <gmi:citation>
+                                    <gmd:CI_Citation>
+                                       <gmd:title>
+                                          <gco:CharacterString>SMAP Handbook</gco:CharacterString>
+                                       </gmd:title>
+                                       <gmd:date>
+                                          <gmd:CI_Date>
+                                             <gmd:date>
+                                                <gco:Date>2014-07-01</gco:Date>
+                                             </gmd:date>
+                                             <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                                     codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                             </gmd:dateType>
+                                          </gmd:CI_Date>
+                                       </gmd:date>
+                                       <gmd:edition>
+                                          <gco:CharacterString>JPL CL#14-2285, JPL 400-1567</gco:CharacterString>
+                                       </gmd:edition>
+                                    </gmd:CI_Citation>
+                                 </gmi:citation>
+                                 <gmi:identifier>
+                                    <gmd:MD_Identifier>
+                                       <gmd:code>
+                                          <gco:CharacterString>SMAP RAD</gco:CharacterString>
+                                       </gmd:code>
+                                    </gmd:MD_Identifier>
+                                 </gmi:identifier>
+                                 <gmi:type>
+                                    <gco:CharacterString>L-band Radiometer</gco:CharacterString>
+                                 </gmi:type>
+                                 <gmi:description>
+                                    <gco:CharacterString>The SMAP L-band Radiometer records V-pol, H-pol, 3rd and 4th Stokes brightness temperatures at 40 km resolution at 4.3 Megabits per second with accuracies of 1.3 Kelvin or better.</gco:CharacterString>
+                                 </gmi:description>
+                              </gmi:MI_Instrument>
+                           </gmi:instrument>
+                        </gmi:MI_Platform>
+                     </gmi:platform>
+                  </gmi:MI_AcquisitionInformation>
+               </gmi:acquisitionInformation>
+            </gmi:MI_Metadata>
+         </gmd:has>
+      </gmd:DS_DataSet>
+   </gmd:composedOf>
+   <gmd:seriesMetadata gco:nilReason="missing"/>
+</gmd:DS_Series>

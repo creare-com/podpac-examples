@@ -1,0 +1,168 @@
+Quality Assessment for SMAP L4_SM Granule <SMAP_L4_SM_aup_20181027T090000_Vv4030_001.h5>
+Number of L4_SM EASEv2  9 km land grid cells =  1684725
+Number of L4_SM EASEv2 36 km land grid cells =  112573
+
+======================================================================================================================================
+Brightness temperatures ("EnKF observation space")
+======================================================================================================================================
+Fieldname (*1)                                     ,Units (*2)      ,    Mean (*3), Std-dev (*3),          Min,          Max,   N (*4)
+--------------------------------------------------------------------------------------------------------------------------------------
+tb_h_obs_36km                                      ,[K]             ,     248.6986,      26.7265,     100.3774,     291.1522,    14342
+tb_h_obs_36km_A                                    ,[K]             ,     249.8296,      25.0130,     100.3774,     291.1522,    10529
+tb_h_obs_36km_D                                    ,[K]             ,     246.0064,      30.1680,     100.9194,     283.8572,     3709
+tb_h_obs_09km                                      ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_obs_09km_A                                    ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_obs_09km_D                                    ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_obs_assim_36km                                ,[K]             ,     260.0750,      19.7173,     155.8090,     297.7515,     5834
+tb_h_obs_assim_36km_A                              ,[K]             ,     261.5329,      20.5933,     155.8090,     297.7515,     3363
+tb_h_obs_assim_36km_D                              ,[K]             ,     258.0901,      18.2719,     178.5629,     296.0595,     2471
+tb_h_obs_assim_09km                                ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_obs_assim_09km_A                              ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_obs_assim_09km_D                              ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_forecast_36km                                 ,[K]             ,     260.5267,      16.8173,     194.8276,     294.8670,     5834
+tb_h_forecast_36km_A                               ,[K]             ,     263.7971,      15.7608,     194.8276,     294.8670,     3363
+tb_h_forecast_36km_D                               ,[K]             ,     256.0740,      17.1841,     201.1296,     283.9389,     2471
+tb_h_forecast_09km                                 ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_forecast_09km_A                               ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_forecast_09km_D                               ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_obs_errstd_36km                               ,[K]             ,       4.0000,       0.0000,       4.0000,       4.0000,     5834
+tb_h_obs_errstd_36km_A                             ,[K]             ,       4.0000,       0.0000,       4.0000,       4.0000,     3363
+tb_h_obs_errstd_36km_D                             ,[K]             ,       4.0000,       0.0000,       4.0000,       4.0000,     2471
+tb_h_obs_errstd_09km                               ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_obs_errstd_09km_A                             ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_obs_errstd_09km_D                             ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_forecast_ensstd_36km                          ,[K]             ,       2.9097,       1.7251,       0.0737,      12.4009,     5834
+tb_h_forecast_ensstd_36km_A                        ,[K]             ,       3.2843,       1.8995,       0.2085,      12.4009,     3363
+tb_h_forecast_ensstd_36km_D                        ,[K]             ,       2.3996,       1.2900,       0.0737,       8.9315,     2471
+tb_h_forecast_ensstd_09km                          ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_forecast_ensstd_09km_A                        ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_forecast_ensstd_09km_D                        ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_obs_assim_minus_forecast_36km                 ,[K]             ,      -0.4517,      10.1226,     -63.2333,      36.4896,     5834
+tb_h_norm_obs_assim_minus_forecast_36km            ,[K K-1]         ,      -0.0129,       1.6963,     -11.0775,       7.6129,     5834
+tb_h_obs_assim_minus_forecast_36km_A               ,[K]             ,      -2.2642,      11.6192,     -63.2333,      36.4896,     3363
+tb_h_norm_obs_assim_minus_forecast_36km_A          ,[K K-1]         ,      -0.2932,       1.8130,     -11.0775,       5.8686,     3363
+tb_h_obs_assim_minus_forecast_36km_D               ,[K]             ,       2.0161,       6.8992,     -24.5873,      32.3279,     2471
+tb_h_norm_obs_assim_minus_forecast_36km_D          ,[K K-1]         ,       0.3688,       1.4376,      -5.5187,       7.6129,     2471
+tb_h_obs_assim_minus_forecast_09km                 ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_norm_obs_assim_minus_forecast_09km            ,[K K-1]         ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_obs_assim_minus_forecast_09km_A               ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_norm_obs_assim_minus_forecast_09km_A          ,[K K-1]         ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_obs_assim_minus_forecast_09km_D               ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_h_norm_obs_assim_minus_forecast_09km_D          ,[K K-1]         ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_obs_36km                                      ,[K]             ,     262.9611,      23.3591,     115.7749,     307.3222,    14435
+tb_v_obs_36km_A                                    ,[K]             ,     263.3416,      21.9647,     116.6650,     307.3222,    10569
+tb_v_obs_36km_D                                    ,[K]             ,     262.6937,      25.6033,     121.5898,     295.8130,     3719
+tb_v_obs_09km                                      ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_obs_09km_A                                    ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_obs_09km_D                                    ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_obs_assim_36km                                ,[K]             ,     278.3035,      16.2367,     200.5973,     312.7871,     5815
+tb_v_obs_assim_36km_A                              ,[K]             ,     281.6315,      16.5718,     200.5973,     312.7871,     3346
+tb_v_obs_assim_36km_D                              ,[K]             ,     273.7914,      14.6066,     207.4047,     297.3938,     2469
+tb_v_obs_assim_09km                                ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_obs_assim_09km_A                              ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_obs_assim_09km_D                              ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_forecast_36km                                 ,[K]             ,     278.8561,      14.5905,     214.5499,     310.7250,     5815
+tb_v_forecast_36km_A                               ,[K]             ,     283.2111,      13.8037,     233.0190,     310.7250,     3346
+tb_v_forecast_36km_D                               ,[K]             ,     272.9517,      13.5128,     214.5499,     292.3915,     2469
+tb_v_forecast_09km                                 ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_forecast_09km_A                               ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_forecast_09km_D                               ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_obs_errstd_36km                               ,[K]             ,       4.0000,       0.0000,       4.0000,       4.0000,     5815
+tb_v_obs_errstd_36km_A                             ,[K]             ,       4.0000,       0.0000,       4.0000,       4.0000,     3346
+tb_v_obs_errstd_36km_D                             ,[K]             ,       4.0000,       0.0000,       4.0000,       4.0000,     2469
+tb_v_obs_errstd_09km                               ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_obs_errstd_09km_A                             ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_obs_errstd_09km_D                             ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_forecast_ensstd_36km                          ,[K]             ,       2.1785,       1.2510,       0.1648,       9.8071,     5815
+tb_v_forecast_ensstd_36km_A                        ,[K]             ,       2.4250,       1.2865,       0.1648,       9.8071,     3346
+tb_v_forecast_ensstd_36km_D                        ,[K]             ,       1.8445,       1.1176,       0.2658,       7.0968,     2469
+tb_v_forecast_ensstd_09km                          ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_forecast_ensstd_09km_A                        ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_forecast_ensstd_09km_D                        ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_obs_assim_minus_forecast_36km                 ,[K]             ,      -0.5526,       6.7578,     -55.5569,      22.4767,     5815
+tb_v_norm_obs_assim_minus_forecast_36km            ,[K K-1]         ,      -0.0768,       1.2995,      -8.1455,       5.3342,     5815
+tb_v_obs_assim_minus_forecast_36km_A               ,[K]             ,      -1.5796,       7.7115,     -55.5569,      15.8329,     3346
+tb_v_norm_obs_assim_minus_forecast_36km_A          ,[K K-1]         ,      -0.2540,       1.4153,      -8.1455,       3.7609,     3346
+tb_v_obs_assim_minus_forecast_36km_D               ,[K]             ,       0.8397,       4.8570,     -19.0596,      22.4767,     2469
+tb_v_norm_obs_assim_minus_forecast_36km_D          ,[K K-1]         ,       0.1634,       1.0781,      -4.6330,       5.3342,     2469
+tb_v_obs_assim_minus_forecast_09km                 ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_norm_obs_assim_minus_forecast_09km            ,[K K-1]         ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_obs_assim_minus_forecast_09km_A               ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_norm_obs_assim_minus_forecast_09km_A          ,[K K-1]         ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_obs_assim_minus_forecast_09km_D               ,[K]             ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+tb_v_norm_obs_assim_minus_forecast_09km_D          ,[K K-1]         ,   -9999.0000,   -9999.0000,   -9999.0000,   -9999.0000,        0
+--------------------------------------------------------------------------------------------------------------------------------------
+See SMAP L4_SM Data Products Specification Document for additional information.
+
+(*1) Fieldnames that contain "_h" and "_v" are for H-polarization and V-polarization brightness temperature (Tb) data, respectively.
+     "tb_h_obs" and "tb_v_obs" are observed Tbs obtained from SMAP L1C_TB and L2_SM_AP files after quality control based on
+     information from the same files.
+     "tb_h_obs_assim" and "tb_v_obs_assim" are observed Tbs that were assimilated in the L4_SM system after land model-based
+     quality control and climatological adjustment (scaling).
+     Statistics for "tb_h_forecast" and "tb_v_forecast" are masked to "tb_h_obs_assim" and "tb_v_obs_assim", respectively.
+     Fieldnames that contain "_36km" or "_09km" provide statistics for Tbs from SMAP L1C_TB files or L2_SM_AP files, respectively, 
+     and corresponding model Tbs.
+     Fieldnames that contain "_A" or "_D" provide statistics that are masked to Tbs from ascending or descending orbits, respectively.
+     Some observations at very high latitudes may have resulted from averaging over both ascending and descending orbits.
+     Fieldnames that contain "norm_obs_assim_minus_forecast" provide statistics for normalized Tb innovations, defined as
+     (tb_obs_assim - tb_forecast)/sqrt(tb_obs_errstd^2 + tb_forecast_ensstd^2).
+(*2) Units are valid for all statistics except N [dimensionless].
+(*3) Mean and std-dev statistics are weighted by the land fraction in each grid cell.
+(*4) N is the number of EASEv2 grid cells that contribute to the statistics.
+     For fieldnames containing "_36km" and "_09km", N is the number of contributing 36 km and 9 km EASEv2 grid cells, respectively.
+
+
+======================================================================================================================================
+Geophysical variables ("EnKF state space")
+======================================================================================================================================
+Fieldname (*5)                                     ,Units (*6)      ,    Mean (*7), Std-dev (*7),          Min,          Max,   N (*8)
+--------------------------------------------------------------------------------------------------------------------------------------
+sm_surface_forecast                                ,[m3 m-3]        ,       0.2041,       0.1200,       0.0094,       0.7913,  1684725
+sm_surface_forecast_masked                         ,[m3 m-3]        ,       0.1863,       0.1134,       0.0241,       0.7434,   147941
+sm_rootzone_forecast                               ,[m3 m-3]        ,       0.2251,       0.1179,       0.0112,       0.7996,  1684725
+sm_rootzone_forecast_masked                        ,[m3 m-3]        ,       0.2138,       0.1175,       0.0197,       0.7818,   147941
+sm_profile_forecast                                ,[m3 m-3]        ,       0.2391,       0.1173,       0.0162,       0.7972,  1684725
+sm_profile_forecast_masked                         ,[m3 m-3]        ,       0.2283,       0.1178,       0.0234,       0.7767,   147941
+surface_temp_forecast                              ,[K]             ,     290.0505,      16.0023,     230.8009,     339.5732,  1684725
+surface_temp_forecast_masked                       ,[K]             ,     295.1652,       7.9195,     270.7998,     321.5693,   147941
+soil_temp_layer1_forecast                          ,[K]             ,     288.9315,      12.3641,     244.4571,     329.2487,  1684725
+soil_temp_layer1_forecast_masked                   ,[K]             ,     296.4912,       8.2794,     273.1600,     325.8811,   147941
+sm_surface_analysis                                ,[m3 m-3]        ,       0.2042,       0.1201,       0.0094,       0.7913,  1684725
+sm_surface_analysis_masked                         ,[m3 m-3]        ,       0.1872,       0.1140,       0.0143,       0.7435,   147941
+sm_rootzone_analysis                               ,[m3 m-3]        ,       0.2251,       0.1179,       0.0112,       0.7996,  1684725
+sm_rootzone_analysis_masked                        ,[m3 m-3]        ,       0.2140,       0.1173,       0.0197,       0.7818,   147941
+sm_profile_analysis                                ,[m3 m-3]        ,       0.2391,       0.1173,       0.0162,       0.7972,  1684725
+sm_profile_analysis_masked                         ,[m3 m-3]        ,       0.2285,       0.1176,       0.0234,       0.7768,   147941
+surface_temp_analysis                              ,[K]             ,     290.0312,      15.9939,     230.8009,     339.5732,  1684725
+surface_temp_analysis_masked                       ,[K]             ,     294.9502,       7.8673,     270.7990,     321.9600,   147941
+soil_temp_layer1_analysis                          ,[K]             ,     288.9109,      12.3493,     244.4571,     329.2487,  1684725
+soil_temp_layer1_analysis_masked                   ,[K]             ,     296.2616,       8.2395,     273.1600,     325.8791,   147941
+sm_surface_analysis_ensstd                         ,[m3 m-3]        ,       0.0281,       0.0102,       0.0001,       0.2459,  1684725
+sm_surface_analysis_ensstd_masked                  ,[m3 m-3]        ,       0.0238,       0.0095,       0.0017,       0.1837,   147941
+sm_rootzone_analysis_ensstd                        ,[m3 m-3]        ,       0.0126,       0.0063,       0.0004,       0.2125,  1684725
+sm_rootzone_analysis_ensstd_masked                 ,[m3 m-3]        ,       0.0103,       0.0044,       0.0011,       0.1661,   147941
+sm_profile_analysis_ensstd                         ,[m3 m-3]        ,       0.0135,       0.0055,       0.0011,       0.0764,  1684725
+sm_profile_analysis_ensstd_masked                  ,[m3 m-3]        ,       0.0113,       0.0037,       0.0013,       0.0546,   147941
+surface_temp_analysis_ensstd                       ,[K]             ,       1.5140,       1.4727,       0.0000,      12.1807,  1684725
+surface_temp_analysis_ensstd_masked                ,[K]             ,       0.8782,       0.6072,       0.0000,       6.3768,   147941
+soil_temp_layer1_analysis_ensstd                   ,[K]             ,       0.8247,       0.7216,       0.0000,       7.4680,  1684725
+soil_temp_layer1_analysis_ensstd_masked            ,[K]             ,       0.8095,       0.6245,       0.0000,       5.6645,   147941
+analysis_minus_forecast_sm_surface                 ,[m3 m-3]        ,   7.9784e-05,   5.7541e-03,  -9.0846e-02,   2.6085e-01,  1684725
+analysis_minus_forecast_sm_surface_masked          ,[m3 m-3]        ,   8.8982e-04,   1.9197e-02,  -9.0846e-02,   2.6085e-01,   147941
+analysis_minus_forecast_sm_rootzone                ,[m3 m-3]        ,   1.7428e-05,   6.8673e-04,  -2.7906e-02,   3.6412e-02,  1684725
+analysis_minus_forecast_sm_rootzone_masked         ,[m3 m-3]        ,   1.9437e-04,   2.2859e-03,  -2.7906e-02,   3.6412e-02,   147941
+analysis_minus_forecast_sm_profile                 ,[m3 m-3]        ,   1.3367e-05,   4.1487e-04,  -1.8253e-02,   2.3955e-02,  1684725
+analysis_minus_forecast_sm_profile_masked          ,[m3 m-3]        ,   1.4908e-04,   1.3782e-03,  -1.8253e-02,   2.3955e-02,   147941
+analysis_minus_forecast_surface_temp               ,[K]             ,  -1.9273e-02,   4.7072e-01,  -2.6235e+01,   4.0106e+00,  1684725
+analysis_minus_forecast_surface_temp_masked        ,[K]             ,  -2.1495e-01,   1.5586e+00,  -2.6235e+01,   4.0106e+00,   147941
+analysis_minus_forecast_soil_temp_layer1           ,[K]             ,  -2.0589e-02,   5.1505e-01,  -3.0005e+01,   5.3606e+00,  1684725
+analysis_minus_forecast_soil_temp_layer1_masked    ,[K]             ,  -2.2962e-01,   1.7060e+00,  -3.0005e+01,   5.3606e+00,   147941
+--------------------------------------------------------------------------------------------------------------------------------------
+See SMAP L4_SM Data Products Specification Document for additional information.
+
+(*5) For fieldnames ending in "_masked", statistics are masked to areas with non-zero increments, where zero is defined to be within
+     +/-10e-5 [m3 m-3] for soil moisture variables and +/-10e-3 [K] for temperature variables.
+     Fieldnames starting with "analysis_minus_forecast" provide statistics for analysis increments.
+(*6) Units are valid for all statistics except N [dimensionless].
+(*7) Mean and std-dev statistics are weighted by the land fraction of each grid cell.
+(*8) N is the number of 9 km EASEv2 grid cells that contribute to the statistics.
