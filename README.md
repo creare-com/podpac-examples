@@ -34,5 +34,5 @@ There are multiple useful keyboard shortcuts, as shown below. For example, for e
 * The `notebooks/basic_examples` folder contains notebooks with some basic examples
 * The `notebooks/demos` folder contains notebooks with some more involved examples
 * The `notebooks/developer` folder contains notebooks with technical implementation details for developers
-* The `notebooks/presentations` folder contains notebooks of presentations given at various workshops, conferences, and other venues
+* The `notebooks/presentations` folder contains notebooks of presentations given at various workshops, conferences, science team meetings, and other venues
 * The `data` folder contains raw datafiles used for some of the examples.
