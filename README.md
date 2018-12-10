@@ -1,23 +1,24 @@
-# Repository that contains files and example Jupyter notebook demonstrating PODPAC usage
+# PODPAC Examples
 
-To get started, make sure you have a working version of [PODPAC](https://github.com/creare-com/podpac) installed.
+Repository that contains files and example Jupyter notebook demonstrating [PODPAC](https://github.com/creare-com/podpac) usage. To get started, make sure you have a [working version of PODPAC installed](https://creare-com.github.io/podpac-docs/install.html).
 
 ## Starting JupyterLab
 
-1. Browse to the location of the `podpac_examples` repository root
+1. Browse to the location of the `podpac-examples` repository
 2. Launch a JupyterLab session
+
 ```bash
 $ jupyter lab
 ```
 
 ## Using JupyterLab
 
-The official documentation can be found [here](https://jupyterlab.readthedocs.io/en/stable/user/interface.html), or from the help menu at the top of the JupyterLab browser window.
+The official documentation can be [found here](https://jupyterlab.readthedocs.io/en/stable/user/interface.html), or from the help menu at the top of the JupyterLab browser window.
 
 To launch an example:
 * Browse to an example using the file-browser on the left panel
 * Double-click the file 
-* From the top menu, select `Run-->Run All`
+* From the top menu, select `Run --> Run All`
 
 <img src='notebooks/Images/JupyterHowTo.gif' width='80%' />
 
