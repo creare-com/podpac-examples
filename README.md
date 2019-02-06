@@ -1,6 +1,6 @@
 # PODPAC Examples
 
-Repository that contains files and example Jupyter notebook demonstrating [PODPAC](https://github.com/creare-com/podpac) usage. To get started, make sure you have a [working version of PODPAC installed](https://creare-com.github.io/podpac-docs/install.html).
+Repository that contains files and example Jupyter notebook demonstrating [PODPAC](https://github.com/creare-com/podpac) usage. To get started, make sure you have a [working version of PODPAC installed](https://podpac.org/install.html).
 
 ## Starting JupyterLab
 
@@ -10,6 +10,15 @@ Repository that contains files and example Jupyter notebook demonstrating [PODPA
 ```bash
 $ jupyter lab
 ```
+
+## Viewing Markdown in JupterLab
+
+To make a Markdown (.md) file more readable in JupyterLab (.e.g this README.md file):
+* Right-click the text editor
+* Select 'Show Markdown Preview'
+
+A new window will open and show a nicely rendered version of the file.
+
 
 ## Using JupyterLab
 
