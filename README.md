@@ -2,7 +2,7 @@
 
 Repository that contains files and example Jupyter notebook demonstrating [PODPAC](https://github.com/creare-com/podpac) usage. To get started, make sure you have a [working version of PODPAC installed](https://podpac.org/install.html).
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/creare-com/podpac-examples/develop)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/creare-com/podpac-examples/master)
 
 ## Starting JupyterLab
 
