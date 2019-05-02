@@ -7,7 +7,7 @@ Repository that contains files and example Jupyter notebook demonstrating [PODPA
 Binder is a service to run Jupyter Notebooks without any setup.
 Click the link below to launch the PODPAC Examples binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/creare-com/podpac-examples/f3ddcc4eec86d140a6064adfaccd61d556e93595)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/creare-com/podpac-examples/38d2aa570363dab9707f674908d1559edc26314d)
 
 ## Run Examples Locally
 
