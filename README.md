@@ -1,19 +1,29 @@
 # PODPAC Examples
 
-Repository that contains files and example Jupyter notebook demonstrating [PODPAC](https://github.com/creare-com/podpac) usage. To get started, make sure you have a [working version of PODPAC installed](https://podpac.org/install.html).
+Repository that contains files and example Jupyter notebook demonstrating [PODPAC](https://github.com/creare-com/podpac) usage.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/creare-com/podpac-examples/master)
+## Run Examples on Binder
 
-## Starting JupyterLab
+Binder is a service to run Jupyter Notebooks without any setup.
+Click the link below to launch the PODPAC Examples binder:
 
-1. Browse to the location of the `podpac-examples` repository
-2. Launch a JupyterLab session
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/creare-com/podpac-examples/38d2aa570363dab9707f674908d1559edc26314d)
+
+## Run Examples Locally
+
+To run examples locally, you must have a [working version of PODPAC installed](https://podpac.org/install.html)
+
+### Start JupyterLab
+
+1. Clone or download this repository to your computer
+2. Browse to the location of the `podpac-examples` repository
+3. Launch a JupyterLab session
 
 ```bash
 $ jupyter lab
 ```
 
-## Viewing Markdown in JupterLab
+### Viewing Markdown in JupterLab
 
 To make a Markdown (.md) file more readable in JupyterLab (.e.g this README.md file):
 * Right-click the text editor
@@ -22,7 +32,7 @@ To make a Markdown (.md) file more readable in JupyterLab (.e.g this README.md f
 A new window will open and show a nicely rendered version of the file.
 
 
-## Using JupyterLab
+### Using JupyterLab
 
 The official documentation can be [found here](https://jupyterlab.readthedocs.io/en/stable/user/interface.html), or from the help menu at the top of the JupyterLab browser window.
 
