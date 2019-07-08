@@ -1,9 +1,0 @@
-#!/bin/bash
-    
-set -ex
-
-# install the head of podpac release candidate
-git clone https://github.com/creare-com/podpac.git
-cd podpac
-git checkout release/1.0.0
-pip install -e .[devall]
