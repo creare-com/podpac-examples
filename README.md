@@ -2,6 +2,8 @@
 
 Repository that contains files and example Jupyter notebook demonstrating [PODPAC](https://github.com/creare-com/podpac) usage.
 
+See the [Introduction Notebook](notebooks/introduction.ipynb) for an overview of PODPAC.
+
 ## Run Examples on Binder
 
 Binder is a service to run Jupyter Notebooks without any setup.
