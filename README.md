@@ -41,14 +41,14 @@ To launch an example:
 * Double-click the file 
 * From the top menu, select `Run --> Run All`
 
-<img src='notebooks/Images/JupyterHowTo.gif' width='80%' />
+<img src='images/JupyterHowTo.gif' width='80%' />
 
 There are multiple useful keyboard shortcuts, as shown below. For example, for evaluating cells in the notebook:
 * `Ctrl-Enter`: Evaluate current cell
 * `Shift-Enter`: Evaluate current cell and select the next cell
 * `Alt-Enter`: Evaluate current cell and create a new cell after it
 
-<img src='notebooks/Images/notebook-keyboard-shortcuts.jpg' width='80%' />
+<img src='images/notebook-keyboard-shortcuts.jpg' width='80%' />
 
 ## Where to go from here
 
