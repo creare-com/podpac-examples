@@ -13,7 +13,7 @@ This repository contains [PODPAC](https://github.com/creare-com/podpac) tutorial
 Binder is a service to run Jupyter Notebooks in the cloud without any setup.
 Click the link below to launch the `podpac-examples` binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/creare-com/podpac-examples/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/creare-com/podpac-examples/main)
 
 ## Run Examples Locally
 
